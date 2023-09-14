@@ -28,6 +28,7 @@ public class QuickStart {
         sum = add(a, b);
         System.out.println("Sum = " + sum); // Prints Sum of Array
         System.out.println("Product = " + product); // Prints Product of Array
+        System.out.println("Reverse Array: " + Arrays.toString(reverseArray(a)));// Prints Reverse Array
     }
 
     public static int add(int[] x, int sum) { // sum of elements in array
