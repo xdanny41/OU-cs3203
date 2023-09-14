@@ -10,7 +10,20 @@ public class QuickStart {
         int sum;
         int test;
 
-        int[] a;
+        System.out.println("Enter array length: ");
+        int length = input.nextInt();
+
+        int[] a = new int[length];
+
+        System.out.println("Please enter array elements");
+        for (int i = 0; i < a.length; i++) {
+
+            int z = input.nextInt();
+            a[i] = z;
+
+        }
+
+        input.close();
         int product = product(a, b);
         sum = add(a, b);
 
