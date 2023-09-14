@@ -27,6 +27,7 @@ public class QuickStart {
         int product = product(a, b);
         sum = add(a, b);
         System.out.println("Sum = " + sum); // Prints Sum of Array
+        System.out.println("Product = " + product); // Prints Product of Array
     }
 
     public static int add(int[] x, int sum) { // sum of elements in array
