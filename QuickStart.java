@@ -11,6 +11,7 @@ public class QuickStart {
         int test;
 
         int[] a;
+        int product = product(a, b);
         sum = add(a, b);
 
     }
@@ -23,3 +24,14 @@ public class QuickStart {
 
         return sum;
     }
+
+    public static int product(int[] x, int product) { // product of array
+
+        product = 1;
+        for (int i = 0; i < x.length; i++) {
+            product = product * x[i];
+        }
+
+        return product;
+    }
+}
